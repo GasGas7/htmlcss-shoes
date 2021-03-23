@@ -1,0 +1,77 @@
+/* Utility class */ 
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Londrina Solid', cursive; 
+} 
+.clearfix::after{ 
+    display: table; 
+    content: ""; 
+    clear: both; 
+} 
+/* /Utility class */ 
+
+/* Bg class */ 
+.red{ 
+    height: 100vh; 
+    position: relative; 
+} 
+
+.red{ 
+    background-color: red; 
+} 
+/* /Bg class */
+
+/* Button  */
+.bottoni{
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+    
+
+}
+ul>li{
+    display: inline-block;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+ul>li>a{
+    text-decoration: none ;
+    font-size: 20px;
+    color: black;
+    position: absolute; 
+    top:50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+} 
+/* /Button  */
+
+/* Img_txt class */ 
+.shoe_txt{ 
+    position: absolute; 
+    top:50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+} 
+
+.text{ 
+    text-align: center; 
+    font-size: 3rem; 
+}
+
+div>p{ 
+    color: yellow; 
+}
+/* Img_txt class */
