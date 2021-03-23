@@ -13,40 +13,41 @@
 /* /Utility class */ 
 
 /* Bg class */ 
-.red{ 
+.red, .green, .yellow{ 
     height: 100vh; 
     position: relative; 
 } 
-
 .red{ 
     background-color: red; 
+}
+.green{ 
+    background-color: green; 
+} 
+.yellow{ 
+    background-color: yellow; 
 } 
 /* /Bg class */
+
 
 /* Button  */
 .bottoni{
     position: relative;
 }
-
 ul{
     position: absolute;
     top: 30px;
     right: 30px;
-    
-    
-
 }
 ul>li{
     display: inline-block;
     margin-right: 30px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
     background-color: white;
     border-radius: 50%;
     position: relative;
-
 }
-
 ul>li>a{
     text-decoration: none ;
     font-size: 20px;
@@ -55,23 +56,29 @@ ul>li>a{
     top:50%; 
     left: 50%; 
     transform: translate(-50%,-50%); 
-} 
+}
 /* /Button  */
 
 /* Img_txt class */ 
 .shoe_txt{ 
+    width: 700px;
     position: absolute; 
     top:50%; 
     left: 50%; 
     transform: translate(-50%,-50%); 
-} 
-
+}
+#shoe1>img, #shoe2>img, #shoe3>img{
+    width: 700px;   
+}
 .text{ 
     text-align: center; 
-    font-size: 3rem; 
+    font-size: 4rem; 
 }
-
 div>p{ 
-    color: yellow; 
+    color: yellow;
+    word-spacing: 30px ;
 }
+#p_green{ 
+    color:green;
+} 
 /* Img_txt class */
